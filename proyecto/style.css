@@ -1,0 +1,164 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+	
+@media screen and (max-width: 480px){
+    #carrito{
+        height: auto;
+    }
+    #tablero{
+        width: auto;
+    }
+    #final{
+        display:none;
+    }
+}
+
+.carrito{
+    width: 100%;
+    max-width: 10000px;
+    background-color: rgb(199, 191, 191);
+} 
+#cart-title{
+    margin-top: 0;
+    font-size: 4.5rem;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: orange;
+    color: black;
+    padding: 30px;
+    border: solid 2px black; border-radius: 20px 20px;
+}
+
+#empty-cart{
+    margin-top: -4rem;
+    text-align: center;
+    font-size: large;
+    border: black 2px solid;
+    background-color: orange; border-radius: 20px 20px ;
+}
+img{
+    margin-top: 4px;
+}
+
+#tablero{ 
+    word-spacing: 20px;
+    background-color: aliceblue;
+    margin-top: 1rem;
+    border: black solid;
+    margin: 5px;
+    
+}
+
+
+#productos{
+    display: inline-flex;
+    text-indent: -1em;
+    margin: 1px;
+    
+    
+}
+#cantidades{
+    display: inline-flex;
+    
+
+}
+#precios{
+    display: inline-flex;
+    word-spacing: 5pt;
+    
+}
+#eliminar{
+    display: inline-flex;
+    margin-top: 10px;
+
+}
+button{
+    margin-left: -20px;
+    background-color: #e7e7e7; color: black;
+    border-radius: 8px;
+}
+#prueba-producto{
+    border: black solid;
+    background-color: rgb(245, 201, 119); border-radius: 20px 20px ;
+
+}
+#realizado{
+    display: inline;
+    margin-top: -1px;
+    word-spacing: 150px;
+    margin-top: 1em;
+}
+#producto1{
+    text-indent: 5em;
+    display: inline-flex;
+    
+}
+#cantidad1{
+    display: inline-flex;
+    
+
+}
+#precio1{
+    display: inline-flex;
+    
+}
+
+#segunda-columna{
+    margin-top: -1px;
+    word-spacing: 150px;
+    margin-top: 1em;
+    border: black solid;
+    background-color: rgb(245, 201, 119); border-radius: 20px 20px ;
+}
+#producto2{
+
+    display: inline-flex;
+    margin-left: -50px;
+    
+}
+
+#cantidad2{
+    display: inline-flex;
+
+}
+#precio2{
+    display: inline-flex;
+    
+}
+#final{
+    display: inline-flex;
+    word-spacing: 150px;
+}
+.boton1{
+    margin-top: 1px;
+    background-color: #4CAF50; /* Green */
+    border-radius: 12px;
+    border: black 1px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 1em;
+}
+#precio-total{
+    margin-left: 400px;
+    margin-right: 200px;
+    display: flex;
+
+}
+.boton2{
+    margin-top: 1px;
+    background-color: #4CAF50; /* Green */
+    border-radius: 12px;
+    border: black 1px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 10em;
+
+
+}
